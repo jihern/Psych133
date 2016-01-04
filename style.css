@@ -1,0 +1,91 @@
+.home{
+	margin: 0px;
+	background-color: black;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#navigation{
+	position: fixed;
+	width: 100%;
+	color: white;
+	font-family: 'PT Sans';
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #fc657b;
+/*	-webkit-animation: color_change 4s infinite alternate;
+	-moz-animation: color_change 4s infinite alternate;
+	-ms-animation: color_change 4s infinite alternate;
+	-o-animation: color_change 4s infinite alternate;
+	animation: color_change 4s infinite alternate;	*/
+}
+
+#home-page{
+	width: 100%;
+	text-align: center;
+}
+
+.photo{
+	display: inline-block;
+	width: 500px;
+}
+
+#closing{
+	font-family: 'PT Sans';
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	margin-bottom: 4px;
+}
+
+#closing1{
+	font-family: 'PT Sans';
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#closing1 a:hover{
+	color: #fc657b;
+}
+
+@-webkit-keyframes color_change {
+	0% { background-color: #f94b7d; }
+	30% { background-color: #ea39e2; }
+	50% { background-color: #9339ea; }
+	70% { background-color: #3b31ff; }
+	100% { background-color: #31a2ff; }
+}
+@-moz-keyframes color_change {
+	0% { background-color: #f94b7d; }
+	30% { background-color: #ea39e2; }
+	50% { background-color: #9339ea; }
+	70% { background-color: #3b31ff; }
+	100% { background-color: #31a2ff; }
+}
+@-ms-keyframes color_change {
+	0% { background-color: #f94b7d; }
+	30% { background-color: #ea39e2; }
+	50% { background-color: #9339ea; }
+	70% { background-color: #3b31ff; }
+	100% { background-color: #31a2ff; }
+}
+@-o-keyframes color_change {
+	0% { background-color: #f94b7d; }
+	30% { background-color: #ea39e2; }
+	50% { background-color: #9339ea; }
+	70% { background-color: #3b31ff; }
+	100% { background-color: #31a2ff; }
+}
+@keyframes color_change {
+	0% { background-color: #f94b7d; }
+	30% { background-color: #ea39e2; }
+	50% { background-color: #9339ea; }
+	70% { background-color: #3b31ff; }
+	100% { background-color: #31a2ff; }
+}
